@@ -1,14 +1,19 @@
-1. Build library
+1. Install dependencies:
+```
+npm install
+```
+
+2. Build library
 ```
 npm run build:lib
 ```
 
-2. Run without AOT (works as expected):
+3. Run without AOT (works as expected):
 ```
 npm run start
 ```
 
-3. Run with AOT (fails unexpectedly):
+4. Run with AOT (fails unexpectedly):
 ```
 npm run start:prod
 ```
