@@ -12,9 +12,7 @@ import {
 } from "./agreements.actions";
 import { AgreementsService } from "./agreements.service";
 
-@Injectable({
-  providedIn: "root",
-})
+@Injectable()
 export class AgreementsEffects {
   constructor(private actions$: Actions, private agreementService: AgreementsService) {}
 
